@@ -8,9 +8,7 @@ st.title("Trader Dashboard")
 # load data
 df = pd.read_csv("daily_metrics.csv")
 
-# -----------------------------
-# Sidebar filter
-# -----------------------------
+
 st.sidebar.header("Filter")
 
 sentiment = st.sidebar.selectbox(
@@ -20,18 +18,14 @@ sentiment = st.sidebar.selectbox(
 
 df_filtered = df[df["classification"] == sentiment]
 
-# -----------------------------
-# KPIs (top row)
-# -----------------------------
+
 col1, col2, col3 = st.columns(3)
 
 col1.metric("Avg PnL", round(df_filtered["Closed PnL"].mean(), 2))
 col2.metric("Win Rate", round(df_filtered["win"].mean(), 2))
 col3.metric("Avg Trades", round(df_filtered["trade_count"].mean(), 2))
 
-# -----------------------------
-# Side-by-side charts
-# -----------------------------
+
 col4, col5 = st.columns(2)
 
 # Performance
