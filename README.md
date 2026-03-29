@@ -13,7 +13,7 @@ The project also includes a simple predictive model, clustering of traders into 
 ---
 
 ## 📂 Project Structure
-Trader_Analysis_Project/
+Data Science Intern  Project/
 │
 ├── Trader_Behavior_Analysis.ipynb # Main analysis notebook
 ├── dashboard.py # Streamlit dashboard
@@ -102,10 +102,10 @@ Trader_Analysis_Project/
 ---
 
 # Clone the repository
-git clone https://github.com/<your-username>/<your-repo-name>.git
+https://github.com/AnuvratSharma9/Data-Science-Intern-Project
 
 # Navigate into the project folder
-cd Trader_Analysis_Project
+cd Data Science Intern _Project
 
 # Install dependencies
 pip install -r requirements.txt
