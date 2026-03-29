@@ -12,18 +12,6 @@ The project also includes a simple predictive model, clustering of traders into 
 
 ---
 
-## 📂 Project Structure
-Data Science Intern  Project/
-│
-├── Trader_Behavior_Analysis.ipynb # Main analysis notebook
-├── dashboard.py # Streamlit dashboard
-├── daily_metrics.csv # Processed dataset
-├── requirements.txt # Dependencies
-
-
-
----
-
 ## ⚙️ Features
 
 ### 📊 Data Analysis
